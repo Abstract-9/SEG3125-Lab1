@@ -85,16 +85,16 @@ li.menu-item a{
     margin: auto;
 }
 
-#search-label{
+.search-label{
     margin-right: 0.2em;
     font-size: 20px
 }
 
-#search, #search-label{
+.search, .search-label{
     background: transparent;
 }
 
-#search-label b{
+.search-label b{
     vertical-align: middle;
 }
 
@@ -103,8 +103,7 @@ li.menu-item a{
     flex-direction: row;
 }
 
-#search-box{
-    margin: auto;
+.search-box{
     background: #EDEDED;
     display:flex;
     flex-direction: row;
@@ -113,8 +112,7 @@ li.menu-item a{
     border-bottom-left-radius: 0.5em;
     border-top-left-radius: 0.5em;
     font-family: Arial;
-    margin-bottom: 0.5em;
-    margin-right: 0;
+    margin: auto 0 0.5em auto;
     max-height: 42px;
 }
 
@@ -128,10 +126,15 @@ li.menu-item a{
     border-top-right-radius: 0.5em;
 }
 
-#search{
+.search{
     width:20em;
     border: none;
     font-size:20px;
+}
+
+#city-box{
+    border-radius: 0.5em;
+    margin: auto auto 0.5em;
 }
 
 #filter{
