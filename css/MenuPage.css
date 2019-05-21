@@ -27,13 +27,17 @@ p.food-text{
 
 div.add-button{
     display:inline;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: auto auto 1em;
     background: #EDEDED;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     padding: 0.5em;
     font-family: Arial;
+    width:max-content;
+}
+
+div.add-button a{
+    text-decoration: none;
 }
 
 p.order-info{
@@ -48,13 +52,14 @@ p.order-info{
 
 div.checkout-button{
     display:inline;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin:auto;
+    width: max-content;
     background: #EDEDED;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     padding: 0.5em;
     font-family: Arial;
+
 
 }
 
@@ -83,6 +88,6 @@ b.TitleofPage{
     width: max-content;
     margin: auto;
     padding: 2em 2em 2em;
-    font-size: 22px;
     font-family: Arial;
+    font-size: 22px;
 }
