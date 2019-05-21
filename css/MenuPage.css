@@ -7,9 +7,9 @@ div.menu{
 
 div.menu-item{
     float:left;
+    display: flex;
     margin: 1em 1em 1em;
     padding: 1em 2em 1em;
-    border: 0.1em solid;
     background: #EDEDED;
     border-radius:0.5em;
     font-family: Arial;
@@ -23,11 +23,23 @@ p.food-text{
     background: #EDEDED;
     border-radius:0.5em;
     font-family: Arial;
+    width: max-content;
+}
+
+.checkout-prompt{
+    display:inline-grid;
+    margin: auto;
+    padding: 1em 2em 1em;
+    border: 0.1em solid;
+    background: #EDEDED;
+    border-radius:0.5em;
+    font-family: Arial;
+    width: max-content;
 }
 
 div.add-button{
     display:inline;
-    margin: auto auto 1em;
+    margin: auto;
     background: #EDEDED;
     border-radius: 0.5em;
     padding: 0.5em;
@@ -35,30 +47,27 @@ div.add-button{
     width:max-content;
 }
 
-div.add-button a{
+
+
+div.add-button a, div.checkout-button a{
     text-decoration: none;
 }
 
 p.order-info{
     display:inline-grid;
-    margin: 1em 1em 1em;
-    padding: 1em 2em 1em;
-    border: 0.1em solid;
     background: #EDEDED;
-    border-radius:0.5em;
     font-family: Arial;
+    margin: auto;
 }
 
 div.checkout-button{
     display:inline;
-    margin:auto;
+    margin: auto auto 0.5em;
     width: max-content;
     background: #EDEDED;
-    border-bottom-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+    border-radius: 0.5em;
     padding: 0.5em;
     font-family: Arial;
-
 
 }
 
@@ -88,4 +97,27 @@ b.TitleofPage{
     padding: 2em 2em 2em;
     font-family: Arial;
     font-size: 22px;
+}
+
+.payment-prompt{
+    width:max-content;
+    padding: 0.5em;
+    background: #EDEDED;
+    border-radius: 0.5em;
+    margin: auto auto 0.5em;
+}
+
+.address-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-item{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em 1em;
+    padding: 1em 2em 1em;
+    background: #EDEDED;
+    border-radius:0.5em;
+    font-family: Arial;
 }
