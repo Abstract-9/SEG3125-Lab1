@@ -54,11 +54,14 @@ div.checkout-button{
 input.search{
     display:inline-grid;
     margin: 1em 1em 1em 1em;
+    border-radius:0.5em;
+    border: 0.1em solid;
 }
 
 div.search-button{
     display:inline-grid;
     margin: 0em 0em 0em;
     padding: 0.2em 0.1em 0.2em;
-    border: 0.1em ridge;
+    border: 0.1em solid;
+    border-radius:0.5em;
 }
