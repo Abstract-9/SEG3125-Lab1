@@ -65,8 +65,7 @@ div.checkout-button{
 input.search{
     display:inline-grid;
     margin: 1em 1em 1em 1em;
-    border-radius:0.5em;
-    border: 0.1em solid;
+    border: 1px solid;
     font-family: Arial;
 }
 
