@@ -21,9 +21,38 @@
 .restaurant-info{
     display: flex;
     flex-direction: row;
+    margin: auto;
+}
+
+.resturant-logo{
+    margin: auto;
+}
+
+.resturant-logo img{
+    max-width: 5em;
+    max-height: 5em;
+}
+
+.info-list-container{
+    margin: auto;
 }
 
 .info-list{
     list-style-type: none;
     text-align: start;
+}
+
+.info-list li{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.TitleofPage{
+    background: #EDEDED;
+    border-radius:0.5em;
+    width: max-content;
+    padding: 1em;
+    font-size: 22px;
+    font-family: Arial;
+    margin: 1em auto 1em;
 }
