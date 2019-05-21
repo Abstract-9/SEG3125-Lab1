@@ -9,4 +9,21 @@
     padding: 0.5em;
     border-radius: 0.5em;
     font-family: Arial;
+    margin-bottom: 1em;
+}
+
+.resturant-name{
+    font-size: 30px;
+    text-align: start;
+}
+
+
+.restaurant-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-list{
+    list-style-type: none;
+    text-align: start;
 }
