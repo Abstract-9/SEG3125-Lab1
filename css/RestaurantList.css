@@ -27,3 +27,13 @@
     list-style-type: none;
     text-align: start;
 }
+
+.TitleofPage{
+    background: #EDEDED;
+    border-radius:0.5em;
+    width: max-content;
+    padding: 1em;
+    font-size: 22px;
+    font-family: Arial;
+    margin: 1em auto 1em;
+}
