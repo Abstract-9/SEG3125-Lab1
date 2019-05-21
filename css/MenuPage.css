@@ -1,0 +1,52 @@
+div.menu{
+    display:inline-grid;
+    margin: 2em 2em 2em 5em;
+    padding: 2em 1em 2em;
+}
+
+div.menu-item{
+    float:left;
+    margin: 1em 1em 1em;
+    padding: 1em 2em 1em;
+    border: 0.1em solid;
+    background: #EDEDED;
+    border-radius:0.5em;
+}
+
+p.food-text{
+    display:inline-grid;
+    margin: 1em 1em 1em;
+    padding: 1em 2em 1em;
+    border: 0.1em solid;
+    background: #EDEDED;
+    border-radius:0.5em;
+}
+
+div.add-button{
+    display:inline-grid;
+    float:right;
+    margin: 1em 1em 1em 5em;
+    padding: 1em 1em 1em;
+    border: 0.1em solid;
+    background: #EDEDED;
+    border-radius:0.5em;
+}
+
+p.order-info{
+    display:inline-grid;
+    margin: 1em 1em 1em;
+    padding: 1em 2em 1em;
+    border: 0.1em solid;
+    background: #EDEDED;
+    border-radius:0.5em;
+}
+
+div.checkout-button{
+    display: inline-grid;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em;
+    border: 0.1em solid;
+    background: #EDEDED;
+    border-radius:0.5em;
+
+}
