@@ -50,3 +50,15 @@ div.checkout-button{
     border-radius:0.5em;
 
 }
+
+input.search{
+    display:inline-grid;
+    margin: 1em 1em 1em 1em;
+}
+
+div.search-button{
+    display:inline-grid;
+    margin: 0em 0em 0em;
+    padding: 0.2em 0.1em 0.2em;
+    border: 0.1em ridge;
+}
