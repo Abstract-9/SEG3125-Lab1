@@ -131,6 +131,8 @@ li.menu-item a{
     height: 42px;
     border-bottom-right-radius: 0.5em;
     border-top-right-radius: 0.5em;
+    content: '\1F50D';
+    cursor: pointer;
 }
 
 .search{
