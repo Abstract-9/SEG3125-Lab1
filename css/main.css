@@ -8,6 +8,7 @@ body{
 #container{
 
     background: url("../image/food.jpg");
+    min-height: 1000px;
 }
 
 /*    Banner    */
@@ -131,8 +132,14 @@ li.menu-item a{
     height: 42px;
     border-bottom-right-radius: 0.5em;
     border-top-right-radius: 0.5em;
-    content: '\1F50D';
     cursor: pointer;
+    display: flex;
+}
+
+#search-icon img{
+    width: 35px;
+    height: 35px;
+    margin: auto;
 }
 
 .search{

@@ -1,15 +1,9 @@
-$(document).load = function(){
+$(document).ready( function() {
 
-    $('#search-icon').on('click', function(){
+    $('div#search-icon').click(function() {
         let content = $('#search').text();
         // Do some next level search ;)
-        window.location.href = 'resturantList.html'
+        $(location).attr('href', 'restaurantList.html')
     })
-};
+});
 
-
-
-
-
-function setupClicks() {
-}
