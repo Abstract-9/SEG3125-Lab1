@@ -4,7 +4,7 @@ $(document).ready( function() {
         let target = event.target;
         let parent = $(target).parent().parent().parent();
         let child = $(parent).find('.food-text');
-
+        let quantity = $(target).parent().find('select').children('option:selected').val();
         let menuItem = child.text();
 
         let strang = menuItem.trim().split('\n');
@@ -17,6 +17,7 @@ $(document).ready( function() {
         if (cart == null) cart = [];
         cart[name] = price;
         data['cart'] = cart;
+        data['cart'] = quantity;
         setDB(data);
     }
     );
