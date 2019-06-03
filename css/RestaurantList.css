@@ -16,6 +16,10 @@
     text-align: start;
 }
 
+.resturant-name a{
+    text-decoration: none;
+}
+
 
 .restaurant-info{
     display: flex;
