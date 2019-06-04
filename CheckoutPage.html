@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/MenuPage.css">
     <link rel="stylesheet" href="css/RestaurantList.css">
 
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/checkout.js"></script>
+
 
 </head>
 
@@ -41,8 +44,8 @@
                         </b>
                     </div>
                     <div class="checkout-item">
-                        <p class="checkout-prompt">
-                            Total price of the food
+                        <p class="checkout-prompt final-price">
+
                         </p>
                         <br>
                         <div class="address-container">
@@ -54,11 +57,27 @@
 
                     </div>
                     <p class="payment-prompt">
-                        Please choose payment method below:</p>
-                    <div class="checkout-button"><a href="#"><b>Debit</b></a></div>
-                    <div class="checkout-button"><a href="#"><b>Credit</b></a></div>
-                    <div class="checkout-button"><a href="#"><b>Cash</b></a></div>
-                    <div class="checkout-button"><a href="#"><b>Confirm Order</b></a></div>
+                        Please enter payment information below:</p>
+                    <div class="restaurant-item">
+                        <div class="address-container">
+                            <p class="order-info">Card Number</p>
+                            <input class="search" type="text">
+                        </div>
+                        <div class="address-container">
+                            <p class="order-info">Expiry Date</p>
+                            <input class="search" type="text">
+                        </div>
+                        <div class="address-container">
+                            <p class="order-info">CVV Number</p>
+                            <input class="search" type="text">
+                        </div>
+                        <div class="address-container">
+                            <p class="order-info">Billing Address (Full)</p>
+                            <input class="search" type="text">
+                        </div>
+                    </div>
+                    <div class="checkout-button"><b style="cursor: pointer">Confirm Order</b></div>
+                    <div class="TitleofPage hidden" hidden><b>Your order has been confirmed!</b></div>
 
                 </div>
             </div>
